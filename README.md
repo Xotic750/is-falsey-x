@@ -21,36 +21,35 @@
 <a name="module_is-falsey-x"></a>
 
 ## is-falsey-x
+
 Test if a given value is falsey.
 
-**Version**: 1.0.3  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_is-falsey-x--module.exports"></a>
 
 ### `module.exports(value)` ⇒ <code>boolean</code> ⏏
+
 This method tests if a given value is falsey.
 
 **Kind**: Exported function  
-**Returns**: <code>boolean</code> - `true` if the value is falsey: otherwise `false`.  
+**Returns**: <code>boolean</code> - `true` if the value is falsey: otherwise `false`.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description        |
+| ----- | --------------- | ------------------ |
 | value | <code>\*</code> | The value to test. |
 
-**Example**  
+**Example**
+
 ```js
-var isFalsey = require('is-falsey-x');
+import isFalsey from 'is-falsey-x';
 
-isFalsey(); // true
-isFalsey(0); // true
-isFalsey(''); // true
-isFalsey(false); // true
-isFalsey(null); // true
+console.log(isFalsey()); // true
+console.log(isFalsey(0)); // true
+console.log(isFalsey('')); // true
+console.log(isFalsey(false)); // true
+console.log(isFalsey(null)); // true
 
-isFalsey(true); // false
-isFalsey([]); // false
-isFalsey(1); // false
-isFalsey(function () {}); // false
+console.log(isFalsey(true)); // false
+console.log(isFalsey([])); // false
+console.log(isFalsey(1)); // false
+console.log(isFalsey(function() {})); // false
 ```
