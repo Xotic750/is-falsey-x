@@ -1,6 +1,6 @@
 {
   "name": "is-falsey-x",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Test if a given value is falsey.",
   "homepage": "https://github.com/Xotic750/is-falsey-x",
   "author": {
@@ -48,7 +48,7 @@
     "url": "https://github.com/Xotic750/is-falsey-x/issues"
   },
   "dependencies": {
-    "to-boolean-x": "^1.0.2"
+    "to-boolean-x": "^2.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
