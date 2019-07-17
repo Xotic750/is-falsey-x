@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-17T13:06:50.477Z",
+  "date": "2019-07-17T15:15:52.104Z",
   "describe": "",
   "description": "Test if a given value is falsey.",
   "file": "is-falsey-x.js",
-  "hash": "24047ec22bd9d0974f70",
+  "hash": "2fa97319065399c963c1",
   "license": "MIT",
-  "version": "2.0.9"
+  "version": "2.0.10"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -137,9 +137,11 @@ __webpack_require__.r(__webpack_exports__);
  * @param {*} [value] - The value to be converted.
  * @returns {boolean} 'true' if value is truthy; otherwise 'false'.
  */
-function toBoolean(value) {
+var toBoolean = function toBoolean(value) {
   return !!value;
-}
+};
+
+/* harmony default export */ var to_boolean_x_esm = (toBoolean);
 
 
 // CONCATENATED MODULE: ./dist/is-falsey-x.esm.js
@@ -152,7 +154,7 @@ function toBoolean(value) {
  */
 
 var is_falsey_x_esm_isFalsey = function isFalsey(value) {
-  return !toBoolean(value);
+  return !to_boolean_x_esm(value);
 };
 
 /* harmony default export */ var is_falsey_x_esm = __webpack_exports__["default"] = (is_falsey_x_esm_isFalsey);
