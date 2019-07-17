@@ -6,6 +6,8 @@ import toBoolean from 'to-boolean-x';
  * @param {*} [value] - The value to test.
  * @returns {boolean} `true` if the value is falsey: otherwise `false`.
  */
-export default function isFalsey(value) {
+const isFalsey = function isFalsey(value) {
   return !toBoolean(value);
-}
+};
+
+export default isFalsey;

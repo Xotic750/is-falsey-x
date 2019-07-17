@@ -6,8 +6,10 @@ import toBoolean from 'to-boolean-x';
  * @returns {boolean} `true` if the value is falsey: otherwise `false`.
  */
 
-export default function isFalsey(value) {
+var isFalsey = function isFalsey(value) {
   return !toBoolean(value);
-}
+};
+
+export default isFalsey;
 
 //# sourceMappingURL=is-falsey-x.esm.js.map
