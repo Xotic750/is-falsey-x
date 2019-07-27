@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-27T00:22:20.313Z",
+  "date": "2019-07-27T13:25:47.291Z",
   "describe": "",
   "description": "Test if a given value is falsey.",
   "file": "is-falsey-x.js",
   "hash": "2fa97319065399c963c1",
   "license": "MIT",
-  "version": "2.0.24"
+  "version": "2.0.25"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
