@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-08-15T17:32:30.075Z",
+  "date": "2019-08-20T08:41:41.435Z",
   "describe": "",
   "description": "Test if a given value is falsey.",
   "file": "is-falsey-x.js",
